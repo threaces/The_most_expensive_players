@@ -1,4 +1,5 @@
 import streamlit as st
+import plotly.express as px
 from data_cleaning import reading_csv_file, clean_df, top10_most_expensive, list_pos, top10_position, list_of_clubs, top10_club, young_players_df, senior_players_df, age_distribution_df, amount_of_players
 from visualisation import horizontal_bar_graph, bar_graph, pie_graph
 
